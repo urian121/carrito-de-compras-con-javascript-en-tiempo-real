@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de compras con JavaScript</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous">
+    <link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="assets/css/home.css">
+  </head>
+  <body>
+
+<div class="position-relative">
+  <a aria-current="page" href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+    aria-controls="offcanvasRight" class="btn cart-badge position-fixed top-0 end-0 me-4 mt-3 swing-on-hover border bg-white">
+    <i class="bi bi-bag-heart"></i>
+    <span class="position-absolute top-1 start-100 translate-middle badge rounded-pill bg-danger">
+      0
+    </span>
+  </a>
+</div>
+
+
+
+    <div class="container my-5">
+      <h1 class="text-center fw-bold">Tienda de Donas</h1>
+      <hr>
+      <div id="donas-container" class="row g-4 mt-4"></div>
+    </div>
+
+
+    <div
+      class="offcanvas offcanvas-end"
+      tabindex="-1"
+      id="offcanvasRight"
+      aria-labelledby="offcanvasRightLabel">
+      <div class="offcanvas-header border-bottom">
+        <h4 class="offcanvas-title text-center">Carrito de compras</h4>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"></button>
+      </div>
+
+      <div class="offcanvas-body border-bottom">
+        <div class="container mb-3">
+          <div class="row align-items-center border-bottom py-2">
+            <div class="col-3">
+              <img
+                src="assets/imgs/product.png"
+                alt="Apple iPad Mini 2 16GB"
+                class="img-fluid" />
+            </div>
+            <div class="col-6">
+              <h6 class="mb-1 title-product">Televisor 75 Pulgada</h6>
+              <p class="mb-0 detalles-product">
+                An iPad like no other. 16GB, WiFi, 4G.
+              </p>
+            </div>
+            <div class="col-3 text-end">
+              <span class="fs-6">3x</span><strong class="fs-5">$950</strong>
+              <button class="btn btn-primary mt-2">Borrar</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="container mb-3">
+          <div class="row align-items-center border-bottom">
+            <div class="col-3">
+              <img
+                src="assets/imgs/product.png"
+                alt="Apple iPad Mini 2 32GB"
+                class="img-fluid" />
+            </div>
+            <div class="col-6">
+              <h6 class="mb-1 title-product">MacBook Pro (16 GB)</h6>
+              <p class="mb-0 detalles-product">Even larger than the 16GB.</p>
+            </div>
+            <div class="col-3 text-end">
+              <span class="fs-6">1x</span><strong class="fs-5">$650</strong>
+              <button class="btn btn-primary mt-2">Borrar</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="container mb-3">
+          <div class="row align-items-center border-bottom">
+            <div class="col-3">
+              <img
+                src="assets/imgs/product.png"
+                alt="Canon T6i"
+                class="img-fluid" />
+            </div>
+            <div class="col-6">
+              <h6 class="mb-1 title-product">Canon T6i </h6>
+              <p class="mb-0 detalles-product">
+                DSLR camera with lots of megapixels.
+              </p>
+            </div>
+            <div class="col-3 text-end mb-5">
+              <span class="fs-6">5x</span><strong class="fs-5">$458</strong>
+              <button class="btn btn-primary mt-2">Borrar</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="container mb-3">
+          <div class="row align-items-center border-bottom">
+            <div class="col-3">
+              <img
+                src="assets/imgs/product.png"
+                alt="Canon T6i"
+                class="img-fluid" />
+            </div>
+            <div class="col-6">
+              <h6 class="mb-1 title-product">Canon T5i</h6>
+              <p class="mb-0 detalles-product">
+                DSLR camera with lots of megapixels.
+              </p>
+            </div>
+            <div class="col-3 text-end mb-5">
+              <span class="fs-6">4x</span><strong class="fs-5">$280</strong>
+              <button class="btn btn-primary mt-2">Borrar</button>
+            </div>
+          </div>
+        </div>
+        <div class="container mb-3">
+          <div class="row align-items-center border-bottom">
+            <div class="col-3">
+              <img
+                src="assets/imgs/product.png"
+                alt="Canon T6i"
+                class="img-fluid" />
+            </div>
+            <div class="col-6">
+              <h6 class="mb-1 title-product">Audífonos 3.5mm</h6>
+              <p class="mb-0 detalles-product">
+                Audífonos con Bluetooth
+              </p>
+            </div>
+            <div class="col-3 text-end mb-5">
+              <span class="fs-6">1x</span><strong class="fs-5">$120</strong>
+              <button class="btn btn-primary mt-2">Borrar</button>
+            </div>
+          </div>
+        </div>
+        <div class="container mb-3">
+          <div class="row align-items-center border-bottom">
+            <div class="col-3">
+              <img
+                src="assets/imgs/product.png"
+                alt="Canon T6i"
+                class="img-fluid" />
+            </div>
+            <div class="col-6">
+              <h6 class="mb-1 title-product">Tenis Galaxy 6</h6>
+              <p class="mb-0 detalles-product">
+                Tenis Galaxy 6 Ie8135 adidas
+              </p>
+            </div>
+            <div class="col-3 text-end mb-5">
+              <span class="fs-6">4x</span><strong class="fs-5">$296</strong>
+              <button class="btn btn-primary mt-2">Borrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="offcanvas-footer mt-4">
+        <h5 class="justify-content-between mb-2">
+          <span class="fw-bold px-3">SUBTOTAL:</span>
+          <span class="fw-bold float-end px-2 fs-2"> $0.00 </span>
+        </h5>
+        <div class="text-center mb-5 px-3">
+          <button class="btn btn-primary mt-5 w-100">Procesar compra</button>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="assets/js/app.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,26 @@
+
+body{
+    background-color: #f0fdff !important;
+}
+.card img{
+    -webkit-mask-image: linear-gradient(black 80%,transparent);
+    mask-image: linear-gradient(black 80%,transparent);
+}
+.btn-cart{
+    background-color: #1b1a20;
+    color: white;
+}
+.btn-cart:hover {
+  background-color: #333 !important;
+  color: #fff !important;
+}
+.custom-card:hover img {
+  transform: scale(1.1);
+}
+
+.custom-card img {
+  transition: transform .3s ease-in-out;
+}
+.bi-bag-heart{
+  font-size: 22px !important;
+}
