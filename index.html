@@ -15,6 +15,7 @@
   </head>
   <body>
 
+<!-- Botón del carrito -->
 <div class="position-relative">
   <a aria-current="page" href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
     aria-controls="offcanvasRight" class="btn cart-badge position-fixed top-0 end-0 me-4 mt-3 swing-on-hover border bg-white">
@@ -26,7 +27,7 @@
 </div>
 
 
-
+<!-- Contenedor principal de la tienda de donas -->
     <div class="container my-5">
       <h1 class="text-center fw-bold">Tienda de Donas</h1>
       <hr>
@@ -34,6 +35,7 @@
     </div>
 
 
+    <!-- Offcanvas del carrito -->
     <div
       class="offcanvas offcanvas-end"
       tabindex="-1"
@@ -48,130 +50,12 @@
           aria-label="Close"></button>
       </div>
 
+      <!-- Contenido del carrito -->
       <div class="offcanvas-body border-bottom">
-        <div class="container mb-3">
-          <div class="row align-items-center border-bottom py-2">
-            <div class="col-3">
-              <img
-                src="assets/imgs/product.png"
-                alt="Apple iPad Mini 2 16GB"
-                class="img-fluid" />
-            </div>
-            <div class="col-6">
-              <h6 class="mb-1 title-product">Televisor 75 Pulgada</h6>
-              <p class="mb-0 detalles-product">
-                An iPad like no other. 16GB, WiFi, 4G.
-              </p>
-            </div>
-            <div class="col-3 text-end">
-              <span class="fs-6">3x</span><strong class="fs-5">$950</strong>
-              <button class="btn btn-primary mt-2">Borrar</button>
-            </div>
-          </div>
-        </div>
-
-        <div class="container mb-3">
-          <div class="row align-items-center border-bottom">
-            <div class="col-3">
-              <img
-                src="assets/imgs/product.png"
-                alt="Apple iPad Mini 2 32GB"
-                class="img-fluid" />
-            </div>
-            <div class="col-6">
-              <h6 class="mb-1 title-product">MacBook Pro (16 GB)</h6>
-              <p class="mb-0 detalles-product">Even larger than the 16GB.</p>
-            </div>
-            <div class="col-3 text-end">
-              <span class="fs-6">1x</span><strong class="fs-5">$650</strong>
-              <button class="btn btn-primary mt-2">Borrar</button>
-            </div>
-          </div>
-        </div>
-
-        <div class="container mb-3">
-          <div class="row align-items-center border-bottom">
-            <div class="col-3">
-              <img
-                src="assets/imgs/product.png"
-                alt="Canon T6i"
-                class="img-fluid" />
-            </div>
-            <div class="col-6">
-              <h6 class="mb-1 title-product">Canon T6i </h6>
-              <p class="mb-0 detalles-product">
-                DSLR camera with lots of megapixels.
-              </p>
-            </div>
-            <div class="col-3 text-end mb-5">
-              <span class="fs-6">5x</span><strong class="fs-5">$458</strong>
-              <button class="btn btn-primary mt-2">Borrar</button>
-            </div>
-          </div>
-        </div>
-
-        <div class="container mb-3">
-          <div class="row align-items-center border-bottom">
-            <div class="col-3">
-              <img
-                src="assets/imgs/product.png"
-                alt="Canon T6i"
-                class="img-fluid" />
-            </div>
-            <div class="col-6">
-              <h6 class="mb-1 title-product">Canon T5i</h6>
-              <p class="mb-0 detalles-product">
-                DSLR camera with lots of megapixels.
-              </p>
-            </div>
-            <div class="col-3 text-end mb-5">
-              <span class="fs-6">4x</span><strong class="fs-5">$280</strong>
-              <button class="btn btn-primary mt-2">Borrar</button>
-            </div>
-          </div>
-        </div>
-        <div class="container mb-3">
-          <div class="row align-items-center border-bottom">
-            <div class="col-3">
-              <img
-                src="assets/imgs/product.png"
-                alt="Canon T6i"
-                class="img-fluid" />
-            </div>
-            <div class="col-6">
-              <h6 class="mb-1 title-product">Audífonos 3.5mm</h6>
-              <p class="mb-0 detalles-product">
-                Audífonos con Bluetooth
-              </p>
-            </div>
-            <div class="col-3 text-end mb-5">
-              <span class="fs-6">1x</span><strong class="fs-5">$120</strong>
-              <button class="btn btn-primary mt-2">Borrar</button>
-            </div>
-          </div>
-        </div>
-        <div class="container mb-3">
-          <div class="row align-items-center border-bottom">
-            <div class="col-3">
-              <img
-                src="assets/imgs/product.png"
-                alt="Canon T6i"
-                class="img-fluid" />
-            </div>
-            <div class="col-6">
-              <h6 class="mb-1 title-product">Tenis Galaxy 6</h6>
-              <p class="mb-0 detalles-product">
-                Tenis Galaxy 6 Ie8135 adidas
-              </p>
-            </div>
-            <div class="col-3 text-end mb-5">
-              <span class="fs-6">4x</span><strong class="fs-5">$296</strong>
-              <button class="btn btn-primary mt-2">Borrar</button>
-            </div>
-          </div>
-        </div>
+        
       </div>
 
+      <!-- Footer del carrito -->
       <div class="offcanvas-footer mt-4">
         <h5 class="justify-content-between mb-2">
           <span class="fw-bold px-3">SUBTOTAL:</span>
@@ -192,6 +76,7 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="assets/js/api_json.js"></script>
     <script src="assets/js/app.js"></script>
 
   </body>
