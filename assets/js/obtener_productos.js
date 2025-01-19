@@ -10,9 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="card-body">
             <h5 class="card-title">${name}</h5>
             <p class="card-text">Categoría: <strong>${category}</strong></p>
-            <p class="card-text">Precio: <strong class="price">$${price.toFixed(
-              2
-            )}</strong></p>
+            <p class="card-text">Precio: <strong class="price">$${price.toFixed(2)}</strong></p>
             
             <button class="btn btn-cart w-100 mt-auto">
                 Agregar al carrito &nbsp; <i class="bi bi-cart-plus"></i>
@@ -26,8 +24,13 @@ document.addEventListener("DOMContentLoaded", () => {
   // Función para cargar los datos
   async function loadDonas() {
     try {
-      const response = await axios.get("./assets/js/data_donas.json");
-      const donas = response.data;
+      const response = await fetch("./assets/data/data_donas.json");
+
+      if (!response.ok) {
+        throw new Error("Error al cargar los datos");
+      }
+
+      const donas = await response.json(); // Parsear el JSON
 
       // Renderizar las tarjetas
       const donaCards = donas.map(createDonaCard).join("");
@@ -38,5 +41,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
+  // Cargar los datos al cargar la página
   loadDonas();
 });

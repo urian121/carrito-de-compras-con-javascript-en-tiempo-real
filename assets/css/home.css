@@ -28,7 +28,6 @@ body {
 }
 #offcanvasRight {
   margin-top: 65px !important;
-  border-radius: 10px 0px 0px 0px;
 }
 .offcanvas-body {
   background-color: #f8f9fa !important;
@@ -66,7 +65,7 @@ body {
   }
 }
 
-.offcanvas-header{
+.offcanvas-header {
   background-color: #cecece !important;
 }
 
@@ -74,7 +73,29 @@ body {
   background-color: #b8e8f7 !important;
   border: 1px solid #b3b3b3 !important;
 }
-.btn_shopping :hover{
+.btn_shopping :hover {
   animation: swing 0.6s ease forwards;
   display: inline-block;
+}
+.fs-5 {
+  font-size: 18px !important;
+  color: #595454 !important;
+}
+.fs-6 {
+  font-size: 14px !important;
+  color: #b3b3b3 !important;
+}
+
+.offcanvas {
+  transition: transform 0.6s ease, opacity 0.6s ease; /* Aumentamos el tiempo */
+}
+
+.offcanvas.show {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.offcanvas:not(.show) {
+  transform: translateX(100%);
+  opacity: 0;
 }

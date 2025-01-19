@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Paquete de 3 donas de Chocolate",
+    "price": 39.3,
+    "image": "donas_01",
+    "category": "dona"
+  },
+  {
+    "name": "Paquete de 3 donas Glaseadas",
+    "price": 29.9,
+    "image": "donas_02",
+    "category": "dona"
+  },
+  {
+    "name": "Dona de Fresa ",
+    "price": 19.2,
+    "image": "donas_03",
+    "category": "dona"
+  },
+  {
+    "name": "Dona con Galleta de Chocolate ",
+    "price": 12.8,
+    "image": "donas_04",
+    "category": "dona"
+  },
+  {
+    "name": "Dona glass con Chispas Sabor Fresa ",
+    "price": 14.9,
+    "image": "donas_05",
+    "category": "dona"
+  },
+  {
+    "name": "Dona glass con Chocolate ",
+    "price": 16.1,
+    "image": "donas_06",
+    "category": "dona"
+  },
+  {
+    "name": "Dona de Chocolate con MÁS Chocolate ",
+    "price": 10.9,
+    "image": "donas_07",
+    "category": "dona"
+  },
+  {
+    "name": "Paquete de 3 donas de Chocolate ",
+    "price": 39.9,
+    "image": "donas_08",
+    "category": "dona"
+  },
+  {
+    "name": "Paquete de 3 donas con Vainilla y Chocolate ",
+    "price": 40.9,
+    "image": "donas_09",
+    "category": "dona"
+  },
+  {
+    "name": "Paquete de 6 Donas",
+    "price": 60.1,
+    "image": "donas_10",
+    "category": "dona"
+  },
+  {
+    "name": "Paquete de 3 Variadas",
+    "price": 64.7,
+    "image": "donas_11",
+    "category": "dona"
+  },
+  {
+    "name": "Dona Natural con Chocolate",
+    "price": 45.5,
+    "image": "donas_12",
+    "category": "dona"
+  },
+  {
+    "name": "Paquete de 3 Donas de Chocolate con Chispas",
+    "price": 60.2,
+    "image": "donas_13",
+    "category": "dona"
+  },
+  {
+    "name": "Dona Chocolate y Coco",
+    "price": 58.9,
+    "image": "donas_14",
+    "category": "dona"
+  }
+]
