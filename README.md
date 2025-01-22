@@ -1,4 +1,4 @@
-# Carrito de Compras con JavaScript en tiempo REAL
+# Carrito de Compras con JavaScript en tiempo REAL 🚀
 
 Este proyecto es una implementación de un carrito de compras dinámico utilizando HTML, CSS, y JavaScript. Incluye funcionalidades como la adición y eliminación de productos, cálculo de subtotales, y envío del pedido por WhatsApp.
 
