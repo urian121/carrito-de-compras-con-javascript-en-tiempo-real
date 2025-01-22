@@ -32,8 +32,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
       const donas = await response.json(); // Parsear el JSON
 
-      // Renderizar las tarjetas
-      const donaCards = donas.map(createDonaCard).join("");
+      /**
+       * Renderizar las tarjetas
+       * donas.map(createDonaCard).join("")
+       * Usamos el método map del array donas para recorrer cada objeto dentro del array.
+       * Por cada objeto, llama a la función createDonaCard, pasando el objeto como argumento.
+       * .join("") Toma el nuevo array de cadenas HTML generado por map y las une en una sola cadena,
+       * asegurando qque las cadenas se concatenen sin separadores entre ellas
+       */
+      const donaCards = donas.map((dona) => createDonaCard(dona)).join("");
       container.innerHTML = donaCards;
     } catch (error) {
       console.error("Error al cargar los datos:", error);
