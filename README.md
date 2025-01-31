@@ -56,15 +56,17 @@ Carrito de Compras vacio
 Carrito de Compras con productos
 ![](https://raw.githubusercontent.com/urian121/imagenes-proyectos-github/refs/heads/master/carrito-javascript-urian-viera.png)
 
-### Expresiones de Gratitud 🎁
 
-    Comenta a otros sobre este proyecto 📢
-    Invita una cerveza 🍺 o un café ☕
-    Paypal iamdeveloper86@gmail.com
-    Da las gracias públicamente 🤓.
+## 🙌 Cómo puedes apoyar 📢:
 
-🔥 No olvides dejar tu estrella ⭐ en el repositorio...
+✨ **Comparte este proyecto** con otros desarrolladores para que puedan beneficiarse 📢.
 
-¡dicen que trae buena suerte! 🍀
+☕ **Invítame un café o una cerveza 🍺**:
+   - [Paypal](https://www.paypal.me/iamdeveloper86) (`iamdeveloper86@gmail.com`).
 
-## No olvides SUSCRIBIRTE 👍
+### ⚡ ¡No olvides SUSCRIBIRTE a la [Comunidad WebDeveloper](https://www.youtube.com/WebDeveloperUrianViera?sub_confirmation=1)!
+
+
+#### ⭐ **Déjanos una estrella en GitHub**:
+   - Dicen que trae buena suerte 🍀.
+**Gracias por tu apoyo 🤓.**
